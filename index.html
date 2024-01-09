@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFÓLIO PESSOAL</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container {
+            display: grid;
+        }
+        header{
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #273634;
+        }
+        .menu{
+            grid-column-start: 2;
+            grid-column-end: 18;
+            justify-content: center;/*centralizar o menu*/
+            gap: 30px;
+        }
+        .imagem_mih{
+            grid-column-start: 1;
+            grid-column-end: 6;
+        }
+    
+        .principal{
+            grid-column-start: 7;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+        }
+        footer{
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #506E6A;
+            text-align: center;
+        }
+        ul{
+            list-style-type: none;
+            color: #506E6A;
+        }
+        a,
+        a:link{
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #506E6A 1 px;
+        }
+        li{
+            float: left;
+        }
+        a:hover{
+            background-color: #506E6A;
+            color: white;
+        }
+        @media only screen and (max-width 767px){
+            .wrapper{
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+            .imagem-mih{
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+            .principal{
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">PORTFÓLIO</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="Curriculum.html">Curriculum</a></li>
+            <li><a href="Portfólio.html">Portfólio</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+
+        </ul>
+
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_mih">
+            <img src="foto portf.jpg" width="255px" height="311px">
+            <div class="infos">
+                <p><strong>Nome:</strong>Michele do Espirito Santo</p>
+                <p>
+                    <strong>Profissão:</strong>Professora</p>
+                    <p>
+            </div>
+        </aside>
+        <section class="principal">
+            <h1>Michele do Espirito Santo
+
+            </h1>
+            <p> Nascida em 1983, atualmente sou professora na Escola Estadual de São Paulo, formada em Pedagogia e Letras - Língua Portuguesa, com Pós Graduação em Literatura, trabalho a 4 anos na área da educação. Hoje estou cursando Engenharia de Software e também curso Pós Gaduação em Games e Gamificação na Educacação. </p>
+            <p>Sou uma pessoa dinâmica, inovadora com vontade de aprender cada vez mais e busco oportunidade para aprimorar meus conhecimentos, buscando inovação de forma crescente e contínua, visando sempre o crescimento entre eu e a empresa.</p>
+        </section>
+
+    </div>
+    <footer class="container">
+        <h1>Aplicações Web e Móveis</h1>
+
+    </footer>
+    </div>
+    
+</body>
+
+</html>

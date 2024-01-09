@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFÓLIO PESSOAL</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container {
+            display: grid;
+        }
+        header{
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #273634;
+        }
+        .menu{
+            grid-column-start: 2;
+            grid-column-end: 18;
+            justify-content: center;/*centralizar o menu*/
+            gap: 30px;
+        }
+    
+        .principal{
+            grid-column-start: 1;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+            
+        }
+        
+        footer{
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #506E6A;
+            text-align: center;
+        }
+        ul{
+            list-style-type: none;
+            color: #506E6A;
+        }
+        a,
+        a:link{
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #506E6A 1 px;
+        }
+        li{
+            float: left;
+        }
+        a:hover{
+            background-color: #506E6A;
+            color: white;
+        }
+        @media only screen and (max-width 767px){
+            .wrapper{
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+            
+            .principal{
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">PORTFÓLIO</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="Curriculum.html">Curriculum</a></li>
+            <li><a href="Portfólio.html">Portfólio</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+
+        </ul>
+
+    </nav>
+    <section class="principal">
+        <h1>Contato
+
+        </h1>
+            <div class="infos">
+                <p><strong>Nome:</strong>Michele do Espirito Santo</p>
+                <p>
+                    <strong>Profissão:</strong>Professora</p>
+                    <p>
+                        <strong>Data Nascimento:</strong>07/06/1983</p>
+                        <p>
+                            <strong>Telefone:</strong>11 97112-8269</p>
+                            <p>
+                                <strong>e-mail:</strong>micheleespsanto@gmail.com</p>
+                                <p>
+                                    <strong>Linkedln:</strong><a href="https://www.linkedin.com/in/michele-esp-santo-351a001b5">www.linkedin.com/in/michele-esp-santo</a></p>
+                                        <p>
+                                                             
+            </div>
+        <aside>
+            <section class="principal">
+            <h2>Deixe sua mensagem</h2>
+ <form action="" method="">
+ <table>
+<tr>
+    <th><label for="nome">Nome:</label></th>
+    <td><input type="text" name="nome"
+   id="nome"></td>
+               </tr>
+               <tr>
+                <th><label for="email">E-mail:</label></th>
+                <td><input type="email" name="email"
+   id="email"></td>
+                </tr>
+                <tr>
+                    <th><label for="msg">Digite sua Mensagem:</label></th>
+                    <td><textarea name="msg" rows="5" cols="40">Digite sua mensagem</textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td> <button>Enviar</button></td>
+                </tr>
+            </table>
+        </form>
+        </aside>
+       
+
+    <footer class="container">
+        <h1>Aplicações Web e Móveis</h1>
+
+    </footer>
+    </div>
+    
+</body>
+
+</html>

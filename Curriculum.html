@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFÓLIO PESSOAL</title>
+    <style>
+        .container {
+            display: grid;
+        }
+        header{
+            grid-column-start: 1;
+            grid-column-end: 1;
+            background-color: #273634
+        }
+        .menu{
+            grid-column-start: 2;
+            grid-column-end: 18;
+            justify-content: center;/*centralizar o menu*/
+            gap: 30px;
+        }
+        .imagem_curriculum{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            
+        }
+       
+        footer{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            background-color: #506E6A;
+            text-align: center;
+        }
+        
+        ul{
+            list-style-type: none;
+            color: #506E6A;
+        }
+        a,
+        a:link{
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #506E6A 1 px;
+        }
+        li{
+            float: left;
+        }
+        
+        a:hover{
+            background-color: #506E6A;
+            color: white;
+        }
+        
+
+        @media only screen and (max-width 767px){
+            .wrapper{
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+            .imagem_curriculum{
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+            .principal{
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">PORTFÓLIO</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="Curriculum.html">Curriculum</a></li>
+            <li><a href="Portfólio.html">Portfólio</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+
+        </ul>
+
+    </nav>
+    <section class="principal">
+        <h1>
+            Curriculum
+        </h1>
+        
+    </section>
+    <div class="container wrapper">
+        <aside class="imagem_curriculum">
+            <img src="Curriculum Michelee.jpg" width="800" height="1200">
+        </aside>
+    </div>
+    <footer class="container">
+        <h1>Aplicações Web e Móveis</h1>
+
+    </footer>
+    </div>
+    
+</body>
+
+</html>
